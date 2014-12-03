@@ -2,7 +2,7 @@
 
 checkout this project into your local repository, then you can run the project by the following commands:
 
-Install cordova plugins add org.apache.cordova.inappbrowser
+Install cordova plugins 
 Go to the project root folder and install the plugins
 ```bash
 $ cordova plugins add org.apache.cordova.device
