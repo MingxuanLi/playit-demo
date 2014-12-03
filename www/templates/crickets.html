@@ -1,0 +1,15 @@
+<ion-view ng-app="ionicApp" ng-controller="CricketsCtrl" title="Crickets">
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+  <ion-content class="has-header">
+    <button class="button" ng-click="insert()">Save</button>
+    <button class="button" ng-click="select()">Load</button>
+    <button class="button" ng-click="delete()">Delete</button>
+    <ion-list>
+      <ion-item ng-repeat="cricket in crickets" href="#/app/crickets/{{cricket.tournament_id}}">
+        {{cricket.tournament_name}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
