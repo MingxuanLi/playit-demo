@@ -5,6 +5,9 @@ checkout this project into your local repository, then you can run the project b
 Install cordova plugins add org.apache.cordova.inappbrowser
 Go to the project root folder and install the plugins
 ```bash
+$ cordova plugins add org.apache.cordova.device
+$ cordova plugins add com.ionic.keyboard
+$ cordova plugins add org.apache.cordova.console
 $ cordova plugins add org.apache.cordova.inappbrowser
 $ cordova plugin add https://github.com/brodysoft/Cordova-SQLitePlugin.git
 ```
