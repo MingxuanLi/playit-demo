@@ -14,7 +14,7 @@ Simulate IOS:
 $ ionic platform add ios
 $ ionic build ios
 $ ionic emulate ios
-Open conference.xcodeproj in the conference/platforms/ios directory
+Open playit-demo.xcodeproj in the playit-demo/platforms/ios directory
 In Xcode, run the application on a device connected to your computer or in the iOS emulator
 ```
 
