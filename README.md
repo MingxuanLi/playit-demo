@@ -6,7 +6,7 @@ Install cordova plugins add org.apache.cordova.inappbrowser
 Go to the project root folder and install the plugins
 ```bash
 $ cordova plugins add org.apache.cordova.inappbrowser
-$ cordova plugin add https://github.com/brodysoft/Cordova-SQLitePlugin
+$ cordova plugin add https://github.com/brodysoft/Cordova-SQLitePlugin.git
 ```
 
 Simulate IOS:
